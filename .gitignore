@@ -1,0 +1,35 @@
+.venv/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+*.spec
+tender_app/data/
+artifacts/
+.env
+.env.*
+!.env.example
+*.db-wal
+*.db-shm
+
+# Local source-update backups and generated repository exports.
+.ui-backups/
+.apply-update.lock
+repomix-output.*
+
+# Private import sources; existing tracked fixtures remain tracked.
+/data/source/*
+
+# Local databases, credentials and import exports.
+*.db
+*.sqlite
+*.sqlite3
+!/data/sample/tenders.db
+*.xlsx
+*.xls
+*.csv
+*.pem
+*.key
+ai-settings.json
+agent-chat.json
+ai-usage.jsonl

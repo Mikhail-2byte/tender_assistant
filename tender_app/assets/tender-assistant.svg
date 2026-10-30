@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="tile" x1="24" y1="16" x2="226" y2="244" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2779ec"/><stop offset="1" stop-color="#153d83"/>
+    </linearGradient>
+    <linearGradient id="badge" x1="156" y1="151" x2="220" y2="222" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#58ead1"/><stop offset="1" stop-color="#26bea9"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="url(#tile)"/>
+  <rect x="9" y="9" width="238" height="238" rx="55" fill="none" stroke="#fff" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M68 48h73l35 35v99a14 14 0 0 1-14 14H68a14 14 0 0 1-14-14V62a14 14 0 0 1 14-14Z" fill="#fff"/>
+  <path d="M141 48v25a10 10 0 0 0 10 10h25" fill="#c9e0ff"/>
+  <path d="M80 107h67M80 132h48M80 157h33" fill="none" stroke="#3874c2" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="184" cy="184" r="44" fill="#153d83"/>
+  <circle cx="184" cy="184" r="37" fill="url(#badge)"/>
+  <path d="m166 184 12 12 25-26" fill="none" stroke="#103b58" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
